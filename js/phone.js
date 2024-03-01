@@ -97,7 +97,5 @@ const showPhoneDetails = (phone) => {
   const showDetailsMemory = document.getElementById("show-details-memory");
   showDetailsMemory.innerText =`Memory : ${phone.mainFeatures.memory}`;
 
-
-  // show modal
   show_detail.showModal();
 };
